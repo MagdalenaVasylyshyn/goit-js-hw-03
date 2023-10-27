@@ -1,3 +1,5 @@
+"use strict";
+
 function slugify(title) {
   const titleSplit = title.split(' ');
   const titleJoin = titleSplit.join('-');
